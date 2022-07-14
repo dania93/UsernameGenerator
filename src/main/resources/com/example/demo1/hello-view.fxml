@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Controller">
+   <children>
+      <Pane prefHeight="307.0" prefWidth="700.0" style="-fx-background-color: #3366CC;">
+         <children>
+            <Text fx:id="textOfName" fill="WHITE" layoutX="192.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your username to copy" textAlignment="CENTER" wrappingWidth="315.34765625">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Text>
+            <Label layoutX="192.0" layoutY="20.0" minHeight="20" minWidth="50" fx:id="label" />
+         </children>
+      </Pane>
+      <Button fx:id="GenerateBtn" alignment="CENTER" layoutX="239.0" layoutY="279.0" mnemonicParsing="false" onAction="#processBtn" prefHeight="56.0" prefWidth="223.0" style="-fx-background-color: #3366CC; -fx-text-fill: #fff; -fx-border-color: #fff;" text="Generate Username">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
